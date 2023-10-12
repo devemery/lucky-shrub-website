@@ -1,0 +1,73 @@
+body {
+    /* background-color: #EDEFEE; */
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem; /* 1rem default font size of html element, usually 16 px */
+    margin-left: 0%; /* % window size */
+    margin-right: 0%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Header Logo */
+
+header > img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-img {
+    max-width: 100%;
+    max-height: auto;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #6c8679;
+    margin-top: 40px;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Main */
+article {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: #6c8679;
+    color: white;
+}
+
+footer div {
+    flex: 1;
+}
+
+#footer-img {
+    height: 100px;
+    display: inline;
+    margin-left: 80%;
+    margin-right: 0%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#copyright {
+    margin: 80px 0 0 0;
+}
